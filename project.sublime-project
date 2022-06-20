@@ -1,0 +1,28 @@
+{
+	"build_systems": [
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Go Builder",
+			"selector": "source.golang",
+			"shell_cmd": "go build \"$file\""
+		},
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Go Test",
+			"selector": "source.golang",
+			"shell_cmd": "go test \"$file\""
+		}
+	],
+	"settings": {
+		"paths": {
+			"linux": [
+				"~/.asdf/shims"
+			]
+		}
+	},
+	"folders": [
+		{
+			"path": "."
+		}
+	]
+}

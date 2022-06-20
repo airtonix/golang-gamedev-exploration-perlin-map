@@ -1,0 +1,550 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "go.mod",
+			"settings":
+			{
+				"buffer_size": 40,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"prefere",
+				"Preferences: Settings"
+			],
+			[
+				"for",
+				"LSP: Format File"
+			],
+			[
+				" tertab",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"terminius",
+				"Terminus: List Shells"
+			],
+			[
+				"termin",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"lsp enable",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"form",
+				"LSP: Format File"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"preferesn lin",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"isn",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"split",
+				"File: Split View"
+			],
+			[
+				"packagesui",
+				"Packages UI"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"pref",
+				"Preferences: Settings"
+			],
+			[
+				"quick",
+				"QuickMenu: Example Code"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pref pack",
+				"Preferences: Package Control Settings"
+			],
+			[
+				"package ad c",
+				"Package Control: Add Channel"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"status",
+				"git: status"
+			],
+			[
+				"sav",
+				"GitSavvy: help"
+			],
+			[
+				"terminal",
+				"Terminality: Browse Commands..."
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"prefer",
+				"Preferences: Key Bindings"
+			],
+			[
+				"settings",
+				"Preferences: LSP Settings"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"akca",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"project",
+				"Project: Add Folder"
+			],
+			[
+				"ope",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"ui",
+				"UI: Customize Theme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"the",
+				"Themr: List themes"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"git sa",
+				"Preferences: GitSavvy Settings"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"enab le",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"prefe",
+				"Preferences: Settings"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"notedown",
+				"Notedown: Edit User Settings"
+			],
+			[
+				"type",
+				"Set Syntax: PowerShell"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git sta",
+				"git: status"
+			],
+			[
+				"savv",
+				"GitSavvy: help"
+			],
+			[
+				"disc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"packagea in",
+				"Package Control: Install Package"
+			],
+			[
+				"pacage",
+				"Package Control: Install Package"
+			],
+			[
+				"package ad",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"teme",
+				"UI: Select Theme"
+			],
+			[
+				"pacakge",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"uninstal",
+				"Colorsublime: Uninstall Theme"
+			],
+			[
+				"themr",
+				"Themr: List themes"
+			],
+			[
+				"shell",
+				"Set Syntax: Bourne Again Shell (bash)"
+			],
+			[
+				"view ",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"dis",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 621.0,
+		"history":
+		[
+			"import os; os.environ[\"PATH\"] "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/zenobius/Projects/Mine/Github/go-rpg-framework"
+	],
+	"file_history":
+	[
+		"/home/zenobius/.zprofile",
+		"/home/zenobius/Projects/Mine/Github/go-rpg-framework/project.sublime-project",
+		"/home/zenobius/.profile",
+		"/home/zenobius/.config/sublime-text-3/Packages/QuickMenu/QuickMenu_main.py",
+		"/home/zenobius/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/zenobius/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/zenobius/Projects/Mine/Github/ecsyjs/ecsy-game/node_modules/.pnpm/@types+react@18.0.8/node_modules/@types/react/index.d.ts",
+		"/home/zenobius/.config/nvim/init.lua",
+		"/home/zenobius/.config/nvim/lua/plugins.lua",
+		"/home/zenobius/.config/nvim/init.vim",
+		"/home/zenobius/.config/nvim/coc-settings.json",
+		"/home/zenobius/.local/share/applications/nvim.desktop",
+		"/home/zenobius/Projects/Mine/Github/Dotfiles/install.sh",
+		"/home/zenobius/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/run/user/1000/gvfs/sftp",
+		"/home/zenobius/Downloads/imagus-0.9.8.crx",
+		"/run/user/1000/gvfs/smb-share",
+		"/home/zenobius/Desktop/SketchUp 2017.desktop",
+		"/home/zenobius/Desktop/chrome-adnlfjpnmidfimlkaohpidplnoimahfh-Default.desktop",
+		"/run/user/1000/gvfs/smb-share:server=openmediavault.local,share=torrents/A.Dream.Cum.True.XXX.DVDRip.x264.mp4.aria2",
+		"/home/zenobius/.themes/carapace40/carapace setup.sh",
+		"/home/zenobius/.config/sublime-text-3/Packages/User/Notedown.sublime-settings",
+		"/home/zenobius/.dotfiles/playbook/roles/airtonix.provisioning/apps/bash/files/bashrc"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "go.mod",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"lsp_uri": "file:///home/zenobius/Projects/Mine/Github/go-rpg-framework/go.mod",
+							"syntax": "Packages/XML/DTD.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.33,
+			0.66,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 236.0
+	},
+	"output.Terminus 2":
+	{
+		"height": 120.0
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.language servers":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.references":
+	{
+		"height": 218.0
+	},
+	"output.show_commit_info":
+	{
+		"height": 104.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/Mine/Github/go-rpg-framework/project.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 2,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 309.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,46 @@
+name: PR Checks
+
+on:
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  # packages: write
+  # issues: write
+
+jobs:
+  Check:
+    env:
+      DISPLAY: ":99.0"
+
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup
+        uses: ./.github/actions/setup-tooling
+
+      - name: Verify Tools
+        run: |
+          go version
+
+      - name: Lint
+        uses: golangci/golangci-lint-action@v3
+
+      - name: Build
+        run: |
+          go build "-gcflags=all=-N -l" -v .
+          env GOOS=js GOARCH=wasm go build -v .
+          env GOOS=windows GOARCH=amd64 go build -v .
+          env GOOS=windows GOARCH=386 go build -v .

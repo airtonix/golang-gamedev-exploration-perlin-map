@@ -1,0 +1,54 @@
+# GoReleaser
+# https://goreleaser.com
+#
+
+project_name: rpg-framework-exploration
+
+before:
+  hooks:
+    - go mod tidy
+
+builds:
+  - id: rpg-framework-exploration
+    goos:
+      - js
+      - linux
+      - windows
+    goarch:
+      - amd64
+      - wasm
+    env:
+      - CGO_ENABLED=1
+    ldflags:
+      - -s -w
+      - -X main.version={{.Version}}
+      - -X main.commit={{.Commit}}
+      - -X main.date={{.Date}}
+      - -X main.name={{.ProjectName}}
+
+archives:
+  - id: rpg-framework-exploration
+    builds:
+      - rpg-framework-exploration
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    format_overrides:
+      - goos: js
+        format: zip
+      - goos: windows
+        format: zip
+    files:
+      - ./*.md
+      - LICENSE
+
+checksum:
+  name_template: "checksums.txt"
+
+snapshot:
+  name_template: "{{ incpatch .Version }}-next"
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - "^docs:"
+      - "^test:"
