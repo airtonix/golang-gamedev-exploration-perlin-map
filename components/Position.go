@@ -1,10 +1,19 @@
 package components
 
+import "github.com/airtonix/rpg/core/position"
+
 // Position for any entity, if it needs
 type Position struct {
-	X, Y float64 // Just a 2D point
+	Point *position.Vector
 }
 
-func NewPosition(x, y int) Position {
-	return Position{float64(x), float64(y)}
+func NewPositionI(x, y int) Position {
+	return Position{
+		Point: position.NewVector(x, y),
+	}
+}
+func NewPositionF(x, y float64) Position {
+	return Position{
+		Point: position.NewVectorF(x, y),
+	}
 }

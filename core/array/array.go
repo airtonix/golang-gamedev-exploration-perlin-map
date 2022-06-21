@@ -20,3 +20,15 @@ func Remove[T comparable](list []T, itemToRemove T) []T {
 		return x != itemToRemove
 	})
 }
+
+func VectorEach[T comparable](
+	list []T,
+	size int,
+	process func(x int, y int, item T),
+) {
+	for x := 0; x < size; x++ {
+		for y := 0; y < size; y++ {
+			process(x, y, list[x*size+y])
+		}
+	}
+}

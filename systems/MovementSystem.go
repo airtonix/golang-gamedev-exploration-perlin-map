@@ -19,6 +19,6 @@ func NewMovementSystem() *MovementSystem {
 // Apply velocity for each entity that has Pos and Vel
 func (system *MovementSystem) Update(world engine.World) {
 	// If they are registered components, they will not be nil
-	system.Position.X += system.Velocity.X
-	system.Position.Y += system.Velocity.Y
+	system.Position.Point.X += system.Velocity.X
+	system.Position.Point.Y += system.Velocity.Y
 }

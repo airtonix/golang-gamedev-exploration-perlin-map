@@ -19,7 +19,10 @@ var (
 )
 
 func main() {
-	fmt.Printf("%s@%s, commit %s, built at %s", name, version, commit, date)
+	fmt.Println(fmt.Printf(
+		"%s@%s, commit %s, built at %s",
+		name, version, commit, date,
+	))
 
 	ebiten.SetWindowSize(800, 600)
 	ebiten.SetWindowSizeLimits(300, 200, -1, -1)

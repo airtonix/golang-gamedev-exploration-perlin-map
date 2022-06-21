@@ -13,13 +13,7 @@
 			"shell_cmd": "go test \"$file\""
 		}
 	],
-	"settings": {
-		"paths": {
-			"linux": [
-				"~/.asdf/shims"
-			]
-		}
-	},
+	"settings": {},
 	"folders": [
 		{
 			"path": "."

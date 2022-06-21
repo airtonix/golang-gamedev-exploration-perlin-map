@@ -30,6 +30,39 @@ var DirectionKeyMap = map[ebiten.Key]string{
 	ebiten.KeyS: "Down",
 }
 
+/*
+This system separates the concept of movement control from
+the method of input.
+
+In this case it's keyboard control.
+
+Additionally, this system also seeks to solve a common problem
+with most input handler systems where a certain axis will dominate
+direction.
+
+	If you're holding left and then also press right
+	the direction remains heading left.
+
+This system solves this by tracking the direction keys pressed
+in the order they were pressed and setting the direction based
+on the latest key pressed and its relationship to direction
+keys of other axis:
+
+	for each direction
+		direction is enabled if
+			direction is
+				latest key pressed
+
+			or
+
+			direction is
+				previous key pressed
+				and
+				axis of latest key is not the same as axis of previous key
+
+```
+
+*/
 type KeyboardControlSystem struct {
 	KeyPressMap []ebiten.Key
 }
@@ -48,6 +81,8 @@ func (system *KeyboardControlSystem) Draw(
 		components.Control{},
 	)
 
+	// watch each movement key and manage its presence
+	// in the keypress queue
 	system.WatchKey(ebiten.KeyW)
 	system.WatchKey(ebiten.KeyD)
 	system.WatchKey(ebiten.KeyS)

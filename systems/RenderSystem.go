@@ -33,7 +33,7 @@ func (system *RenderSystem) Draw(world engine.World, screen *ebiten.Image) {
 
 		ebitenutil.DrawRect(
 			screen,
-			pos.X-(size.W/2), pos.Y-(size.H/2),
+			pos.Point.X-(size.W/2), pos.Point.Y-(size.H/2),
 			size.W, size.H,
 			appearance.Color,
 		)

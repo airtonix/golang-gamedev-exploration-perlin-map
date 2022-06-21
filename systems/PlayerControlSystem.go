@@ -36,19 +36,19 @@ func (system *PlayerControlSystem) Update(world engine.World) {
 	moveDirectionY := 0.0
 
 	if control.Direction["Right"] {
-		moveDirectionX = 1.0
+		moveDirectionX = control.MoveSpeed
 	}
 
 	if control.Direction["Left"] {
-		moveDirectionX = -1.0
+		moveDirectionX = -control.MoveSpeed
 	}
 
 	if control.Direction["Up"] {
-		moveDirectionY = -1.0
+		moveDirectionY = -control.MoveSpeed
 	}
 
 	if control.Direction["Down"] {
-		moveDirectionY = 1.0
+		moveDirectionY = control.MoveSpeed
 	}
 
 	vel.X = num.Lerp(vel.X, control.MoveSpeed*moveDirectionX, control.MoveSpeed)
